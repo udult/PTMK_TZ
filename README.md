@@ -30,6 +30,7 @@ make
 
 Чтобы задать пароль и/или другие параметры для подключения к вашей базе данных необходимо отредактировать файл ./include/common.hpp.
 отредактируйте строку:
+
 ```const std::string connection_request = "dbname=postgres user=postgres password= host=localhost port=5432";```
 в соответствии с вашей системой.
 
